@@ -1,0 +1,6 @@
+filePath: src/main/resources/Users.csv
+
+logging:
+  file: send-emails.log
+  level:
+    org.springframework.web: INFO
