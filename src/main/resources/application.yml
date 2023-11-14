@@ -4,3 +4,15 @@ logging:
   file: send-emails.log
   level:
     org.springframework.web: INFO
+
+jdbc:
+  mysql:
+    url: jdbc:mysql://localhost:3306/users
+    driver: com.mysql.jdbc.Driver
+    username: java
+    password: d$7hF_r!9Y
+  mongo:
+    url: jdbc:mongo://localhost:3306/users
+    driver: com.mongo.jdbc.Driver
+    username: java
+    password: d$7hF_r!9X
